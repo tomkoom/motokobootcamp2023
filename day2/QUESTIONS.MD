@@ -1,14 +1,17 @@
 Q1: Who controls the ledger canister?
+
 A1: Ledger canister id is: [`ryjl3-tyaaa-aaaaa-aaaba-cai`](https://dashboard.internetcomputer.org/canister/ryjl3-tyaaa-aaaaa-aaaba-cai). The controller of the ledger canister is `r7inp-6aaaa-aaaaa-aaabq-cai`.
 
 ···
 
 Q2: What is the subnet of the canister with the id: mwrha-maaaa-aaaab-qabqq-cai? How much nodes are running this subnet?
+
 A2: The subnet of the canister with the id `mwrha-maaaa-aaaab-qabqq-cai` is `pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe`. There are `16` node machines running on this subnet: https://dashboard.internetcomputer.org/subnet/pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe.
 
 ···
 
 Q3: I have a neuron with 1O ICPs locked with a dissolve delay of 4 years - my neuron has been locked for 2 years. What is my expected voting power?
+
 A3: 10 x 1.5 x ?
 
 ···
