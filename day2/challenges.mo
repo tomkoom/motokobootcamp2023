@@ -13,7 +13,8 @@ actor {
   public func average_array(arr : [Int]) : async Int {
     let sum = Array.foldLeft<Int, Int>(arr, 0, func(sumSoFar, x) = sumSoFar + x);
     let size = arr.size();
-    return sum / size;
+    let average = sum / size;
+    return average;
   };
 
   // 2. Character count: Write a function that takes in a string and a character, and returns the number of occurrences of that character in the string.
@@ -40,7 +41,6 @@ actor {
         return m * calculate(m - 1);
       };
     };
-
     return calculate(n);
   };
 
@@ -49,7 +49,8 @@ actor {
 
   public func number_of_words(t : Text) : async Nat {
     let words = Text.split(t, #char ' ');
-    return Iter.size(words);
+    let num = Iter.size(words);
+    return num;
   };
 
   // 5. Write a function find_duplicates that takes an array of natural numbers and returns a new array containing all duplicate numbers. The order of the elements in the returned array should be the same as the order of the first occurrence in the input array.
