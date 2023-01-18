@@ -24,7 +24,6 @@ actor {
     counter := counter + 1;
   };
 };
-
 ```
 
 ···
